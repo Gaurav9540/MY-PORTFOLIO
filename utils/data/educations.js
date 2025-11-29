@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "B.Tech CSE",
+    duration: "2021 - 2024",
+    institution: "Sandip University, Nashik",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "12th Grade (HSC)",
+    duration: "2020 - 2021",
+    institution: "SNJB College, Chandwad",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "10th Grade (SSC)",
+    duration: "2018 - 2019",
+    institution: "SNJB College, Chandwad",
   }
 ]

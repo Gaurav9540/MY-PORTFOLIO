@@ -35,10 +35,11 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
+      const res = await axios.post(`/api/contact`, userInput);
+      // const res = await axios.post(
+      //   `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+      //   userInput
+      // );
 
       toast.success("Message sent successfully!");
       setUserInput({
