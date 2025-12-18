@@ -1,5 +1,6 @@
 export const skillsData = [
   'Linux',
+  'OpenStack',
   'AWS',
   'SSH',
   'Terraform',
@@ -19,6 +20,7 @@ export const skillsData = [
   'Firebase',
   'Cloudflare',
   'Firewall',
+  'openshift',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

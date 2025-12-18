@@ -19,6 +19,8 @@ import react from '../app/assets/svg/skills/react.svg';
 import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import cloudflare from '../app/assets/svg/skills/cloudflare.svg'
+import openstack from '../app/assets/svg/skills/openstack.svg'
+import openshift from '../app/assets/svg/skills/openshift.svg'
 
 
 export const skillsImage = (skill) => {
@@ -66,6 +68,10 @@ export const skillsImage = (skill) => {
       return linux;
     case 'cloudflare':
       return cloudflare;
+    case 'openstack':
+      return openstack;
+    case 'openshift':
+      return openshift;
     default:
       break;
   }
